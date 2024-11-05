@@ -11,5 +11,5 @@ import { UNLEASH_NEW_UI_FEATURE_FLAG } from '../constants';
 export const useNewUiEnabled = () => {
   const newUiEnabled = useFlag(UNLEASH_NEW_UI_FEATURE_FLAG);
 
-  return !newUiEnabled;
+  return newUiEnabled;
 };
